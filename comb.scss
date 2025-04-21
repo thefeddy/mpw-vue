@@ -1,0 +1,434 @@
+.project-page {
+    margin-bottom: 100px;
+}
+
+#main-video {
+    position: relative;
+    top: -100px;
+}
+
+
+.ohio_portfolio-template-default .vc_row {
+    overflow: visible;
+
+    #x-content {
+        overflow: visible;
+    }
+}
+
+#video-text-break {
+    padding: 50px 0;
+
+    h1 {
+        font-family: raleway;
+        font-size: 53px;
+        font-weight: 800;
+        font-style: normal;
+        line-height: 60px;
+
+        position: relative;
+        z-index: 1;
+
+        color: #fff;
+    }
+
+    p {
+        font-family: 'proxima-nova', sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        line-height: 30px;
+
+        margin-bottom: 25px;
+
+        color: #fff;
+
+        b,
+        strong {
+            font-weight: 700;
+
+            text-transform: uppercase;
+        }
+    }
+
+    img {
+        position: absolute;
+        z-index: 0;
+        top: -10px;
+        left: -100px;
+
+        height: 265px;
+    }
+}
+
+// #video-text-break {
+//     .split-box-container {
+//         &:first-child {
+//             background: url(https://xstudios.com/wp-content/uploads/2025/03/gradient-bg-5-white-2.png) no-repeat;
+//             background-position: right center;
+//             background-size: cover;
+//         }
+//     }
+// }
+
+#what-we-did {
+    position: relative;
+
+    padding-top: 100px;
+    padding-bottom: 50px;
+
+    color: #fff;
+
+    h1 {
+        position: relative;
+        z-index: 5;
+
+        background: none;
+    }
+
+    img {
+        position: absolute;
+        z-index: 0;
+        top: -80px;
+        left: 0;
+
+        height: 265px;
+    }
+
+    p {
+        font-family: 'proxima-nova', sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+        font-style: italic;
+        line-height: 64px;
+
+        color: #fff;
+    }
+}
+
+.x-row {
+    display: flex;
+
+    align-items: flex-end;
+    justify-content: center;
+
+    h1 {
+        font-family: raleway;
+        font-size: 54px;
+        font-weight: 800;
+        font-style: normal;
+        line-height: 54px;
+
+        margin: 0 32px 0 0;
+
+        color: #fff;
+        background: url(https://xstudios.com/wp-content/uploads/2025/03/gradient-bg-5-white-2.png) no-repeat;
+        background-position: right center;
+        background-size: cover;
+    }
+
+    p {
+        font-family: 'proxima-nova', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        font-style: normal;
+        line-height: 18px;
+
+        display: inline-block;
+
+        width: auto;
+        margin: 0;
+
+        color: #fff;
+    }
+}
+
+
+#bottom {
+    background: url(https://xstudios.com/wp-content/uploads/2025/03/port-gradient.png) no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+
+    .start-dream {
+        h3 {
+            font-family: raleway;
+            font-size: 54px;
+            font-weight: 800;
+            font-style: normal;
+            line-height: 80px;
+
+            margin-top: 166px;
+            margin-bottom: 60px;
+
+            color: #fff;
+        }
+    }
+}
+
+.x-link {
+    font-family: raleway;
+    font-size: 24px;
+    font-weight: 800;
+    font-style: normal;
+    line-height: 28px;
+
+    display: flex;
+
+    width: 316px;
+    height: 58px;
+    margin: 0 auto 170px auto;
+
+    color: #fff;
+    border-radius: 4px;
+    background: #3d3d3d;
+
+    align-items: center;
+    justify-content: center;
+}
+
+#x-vid-head {
+    position: relative;
+
+
+
+    h1 {
+        font-family: raleway;
+        font-size: 95px;
+        font-weight: 800;
+        font-style: normal;
+        line-height: 99px;
+
+        width: 55%;
+        margin: 0;
+
+        color: #fff;
+    }
+
+    video {
+        width: 100%;
+        height: 100%;
+
+        object-fit: cover;
+    }
+
+    .con {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+
+        width: 100%;
+        max-width: 1300px;
+        padding: 0 20px;
+
+        transform: translate(-50%, -50%);
+    }
+}
+
+#sizzle {
+    display: none;
+}
+
+.grid-container {
+    display: grid;
+
+    max-width: 1500px;
+
+    //height: 900px;
+    margin: 0 auto;
+
+    gap: 10px 10px;
+    grid-template-areas: 'tl tr tr'
+        'tl m mr'
+        'bl br br';
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+
+    .tl {
+        grid-area: tl;
+    }
+
+    .tr {
+        grid-area: tr;
+    }
+
+    .m {
+        grid-area: m;
+    }
+
+    .bl {
+        grid-area: bl;
+    }
+
+    .mr {
+        grid-area: mr;
+    }
+
+    .br {
+        grid-area: br;
+    }
+
+    img,
+    video {
+        display: block;
+
+        width: 100%;
+        height: 100%;
+
+        object-fit: cover;
+    }
+}
+
+.project-page-content {
+    .project-description {
+        p {
+            padding-bottom: 35px;
+
+            strong {
+                font-family: raleway;
+                font-size: 32px;
+                font-weight: 800;
+                font-style: normal;
+                line-height: 40px;
+
+                color: #000;
+            }
+        }
+    }
+}
+
+.vc_row-full-width+p {
+    display: none;
+}
+
+#large-image {
+
+    .vc_single_image-wrapper,
+    .wpb_single_image,
+    .wpb_wrapper {
+        display: block;
+    }
+
+    img {
+        display: block;
+
+        max-width: 1500px;
+        margin: 0 auto;
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 991px) {
+    #x-gallery {
+        .grid-container {
+            display: block;
+
+            height: auto;
+            max-height: none;
+            margin-bottom: 25px;
+
+            .right {
+                display: block;
+            }
+
+            .bottom-right {
+                display: block;
+            }
+        }
+
+        .vc_column-inner {
+            padding: 0;
+        }
+    }
+}
+
+
+
+@media(max-width:1024px) {
+    #x-vid-head {
+        h1 {
+            font-size: 38px;
+            line-height: 42px;
+
+            width: 55%;
+        }
+    }
+}
+
+@media(max-width:768px) {
+    .x-row {
+        flex-direction: column;
+
+        align-items: normal;
+    }
+
+    #page {
+        #what-we-did {
+            .split-box-container {
+                padding: 0;
+
+                .split-box-inner {
+                    justify-content: flex-start;
+                }
+            }
+        }
+    }
+
+    #what-we-did {
+        padding: 0 20px !important;
+    }
+
+    #large-image {
+        padding-top: 50px;
+
+        .vc_column-inner {
+            padding: 0;
+        }
+    }
+
+    #x-vid-head {
+        .con {
+            width: 100%;
+        }
+
+        h1 {
+            font-size: 38px;
+
+            width: 55%;
+        }
+    }
+}
+
+#gallery {
+    display: flex;
+
+    height: 686px;
+
+    .left {
+        width: 33%;
+        margin-right: 8px;
+    }
+
+    .right {
+        width: 65%;
+        height: 686px;
+
+        .top {
+            width: 100%;
+            height: 50%;
+        }
+
+        .bottom {
+            display: flex;
+
+            img {
+                display: block;
+
+                width: 50%;
+                height: auto;
+
+                &:first-child {
+                    margin-right: 8px;
+                }
+            }
+        }
+    }
+}
